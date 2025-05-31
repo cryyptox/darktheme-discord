@@ -1,19 +1,18 @@
 /**
- * @name NeonGlow
- * @description Cyberpunk-inspiriertes Discord Theme mit leuchtenden Neon-Akzenten.
- * @version 1.0
+ * @name NeonGlowNormalFont
+ * @description Neon-Discord-Theme mit klassischer Schrift
+ * @version 1.1
  * @author ChatGPT
  */
 
-@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
-
+/* Farben */
 :root {
   --main-color: #0ff;
   --accent-color: #f0f;
   --background-color: #0a0a0a;
   --background-secondary: #111;
   --text-color: #ccc;
-  --font: 'Orbitron', sans-serif;
+  --font: "gg sans", "Whitney", sans-serif;
 }
 
 /* Hintergrund */
@@ -40,10 +39,11 @@ body {
   color: var(--text-color);
 }
 
-/* Texteffekte */
+/* Nachrichten */
 .messageContent-2t3eCI {
   color: var(--main-color) !important;
   text-shadow: 0 0 4px var(--main-color);
+  font-family: var(--font) !important;
 }
 
 /* Header */
@@ -52,19 +52,19 @@ body {
   text-shadow: 0 0 4px var(--accent-color);
 }
 
-/* Hover Effekt auf Nachrichten */
+/* Hover-Effekt */
 .message-2CShn3:hover {
   background-color: #1a1a1a !important;
 }
 
-/* Eingabefeld */
+/* Texteingabe */
 .textArea-2CLwUE {
   background-color: #111 !important;
   color: var(--main-color) !important;
   border: 1px solid var(--accent-color);
 }
 
-/* Scrollbars */
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
